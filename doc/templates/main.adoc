@@ -32,7 +32,7 @@ toc::[]
 
 сборка pdf из командной строки:
 [source]
-  asciidoctor-pdf главный_документ.adoc -a pdf-style=./../стили/sberx-theme.yml -a detalization=5 -a document-version=0.1.4
+  asciidoctor-pdf main.adoc -a pdf-style=./../styles/sberx-theme.yml -a detalization=5 -a document-version=0.1.4
 
 См. <<entrodaction>>
 

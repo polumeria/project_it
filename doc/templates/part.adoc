@@ -2,4 +2,4 @@
 
 Содержание раздела.
 
-include::подраздел.adoc[leveloffset=+1]
+include::subpart.adoc[leveloffset=+1]
