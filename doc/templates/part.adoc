@@ -1,0 +1,5 @@
+= Раздел
+
+Содержание раздела.
+
+include::subpart.adoc[leveloffset=+1]
