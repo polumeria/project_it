@@ -1,0 +1,14 @@
+= Техническое задание
+
+== Требования
+
+[caption=":figure-caption:: "]
+image::images/requirements.png[]
+
+image::images/course_editor_mode.png[]
+
+image::images/education_mode.png[]
+
+image::images/test_execution_mode.png[]
+
+include::раздел.adoc[leveloffset=+1]

@@ -1,0 +1,44 @@
+// настройка атрибутов документа
+// системные атрибуты
+:listing-caption: Код
+:chapter-label: Глава
+:version-label: Версия
+:icons: font
+//  - настройка оглавления
+:toc-title: Оглавление
+:toc:
+:toc-placement!:
+:toclevels: 3
+// нумерация разделов документа
+:sectnums:
+:sectnumlevels: 5
+
+// пользовательские атрибуты
+:figure-caption: Рисунок
+:figure-caption-ref: рисунке
+:images_dir: ./images
+// уровень детализации документа
+:detalization: 2
+
+
+= Главный документ
+
+Версия документа {document-version} от {localdate}
+
+toc::[]
+
+[[entrodaction, 'Подпись к ссылке на раздел, если ее не ввести, то отобразится просто имя раздела']]
+== Введение 
+
+См. <<entrodaction>>
+
+include::scope.adoc[leveloffset=+1]
+include::technical_task.adoc[leveloffset=+1]
+
+== Приложения
+
+=== Сборка документации
+
+сборка pdf из командной строки:
+[source]
+  asciidoctor-pdf main.adoc -a pdf-style=./../styles/sberx-theme.yml -a detalization=5 -a document-version=0.1.4
